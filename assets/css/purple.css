@@ -9,7 +9,7 @@
 }
 .ig.focus,
 .ig:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(245, 64, 149, 0.952);
 }
 .ig.disabled,
 .ig:disabled {
