@@ -26,5 +26,5 @@
 .ig:not(:disabled):not(.disabled).active:focus,
 .ig:not(:disabled):not(.disabled):active:focus,
 .show > .ig.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(245, 64, 149, 0.952);
 }
