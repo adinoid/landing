@@ -1,0 +1,30 @@
+.ig {
+  color: #fd0d85;
+  border-color: #fd0d85;
+}
+.ig:hover {
+  color: #fff;
+  background-color: #fd0d85;
+  border-color: #fd0d85;
+}
+.ig.focus,
+.ig:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+.ig.disabled,
+.ig:disabled {
+  color: #fd0d85;
+  background-color: transparent;
+}
+.ig:not(:disabled):not(.disabled).active,
+.ig:not(:disabled):not(.disabled):active,
+.show > .ig.dropdown-toggle {
+  color: #fff;
+  background-color: #fd0d85;
+  border-color: #fd0d85;
+}
+.ig:not(:disabled):not(.disabled).active:focus,
+.ig:not(:disabled):not(.disabled):active:focus,
+.show > .ig.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
